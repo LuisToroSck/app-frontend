@@ -4,8 +4,8 @@ import './App.css';
 import Home from './components/Home';
 import { Container } from 'react-bootstrap';
 import Catalogo from './components/Catalogo';
-import Lol from './components/Lol';
 import {Carrito} from "./components/carrito";
+import Personalizar from "./components/Personalizar";
 
 function App(){
     return(
@@ -15,7 +15,7 @@ function App(){
                 <Routes>
                     <Route path="/" element={<Home />} />  
                     <Route path="/catalogo" element={<Catalogo />} /> 
-                    <Route path="/LOL" element={<Lol />} /> 
+                    <Route path="/personalizar" element={<Personalizar />} /> 
                 </Routes>
             </Container>
         </Layout>

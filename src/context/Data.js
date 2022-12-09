@@ -135,7 +135,17 @@ const data = {
       image: "https://i.imgur.com/bJGeA92.jpeg",
       cantidad: 1,
     },
+    {
+      id: 17,
+      tittle: "Pizza personalizada",
+      price: 14990,
+      description: [],
+      category: "pizza",
+      image: "https://i.imgur.com/bJGeA92.jpeg",
+      cantidad: 1,
+    },    
   ],
+  especiales: [],
 };
 
 export default data;

@@ -74,7 +74,7 @@ const Index = () => {
                 lead-in to additional content. This content is a little bit
                 longer.
               </Card.Text>
-              <Button variant="primary" style={{ background: "#FF5757" }}>Personaliza tu propia pizza</Button>
+              <Button href="/personalizar" variant="primary" style={{ background: "#FF5757" }}>Personaliza tu propia pizza</Button>
             </Card.Body>
           </Card>
         </Col>

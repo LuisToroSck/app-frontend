@@ -36,7 +36,7 @@ function BasicExample() {
               Menú{" "}
             </Nav.Link>
             <Nav.Link
-              href="#armaTuPizza"
+              href="/personalizar"
               style={{ paddingRight: "600px", color: "white",fontWeight:"bold" }}
             >
               Arma tu pizza
